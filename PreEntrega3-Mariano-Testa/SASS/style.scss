@@ -1,0 +1,41 @@
+body {
+    color: #bb3500c4;
+    font-family: Arial, sans-serif;
+    nav {
+        background-color: #15171c;
+        h2 { animation-duration: 2s; animation-name: aparecer;
+             animation-iteration-count: infinite; color: #f7f0f0; }
+        @keyframes aparecer {
+            0% {
+            opacity: 0;
+            100% {
+            }
+            }
+            } opacity: 1;
+    }
+    .card {
+        border: 2px solid #ffffff;
+        background-color: #f7f7f7;
+        font-family: 'Helvetica Neue', sans-serif; 
+        color: #f7f0f0; /* Color de texto en las tarjetas */
+        &:hover {
+            border-color: #3d00cc;
+            background-color: #ffffff;
+        }
+    }
+    .card-body {
+        background-image: linear-gradient(to bottom, #ffffff, #15171c);
+        color:  #000000;
+    }
+    .btn {
+            background-color: #3871ec;
+            color: #ffffff;
+            &:hover {
+                background-color: #2141ac;
+                color: #ffffff;
+            }
+    }
+    #elementos { background-color:#15171c;
+    }
+}
+        
